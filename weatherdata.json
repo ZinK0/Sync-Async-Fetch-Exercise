@@ -1,0 +1,8 @@
+{
+  "api-key": "7243ae234ab17718e54f80392370a3e9",
+  "current-weather-api": "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}",
+  "three-hour-5days-api": "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}",
+  "basic-weather-map-api": "https://tile.openweathermap.org/map/{layer}/{z}/{x}/{y}.png?appid={API key}",
+  "air-pollution-data-api": "http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={API key}",
+  "geocoding-api": "http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}"
+}
