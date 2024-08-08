@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+#weather_display {
+  width: 90%;
+  border-radius: 20px;
+  margin: 60px auto;
+  color: #696969;
+  background-color: #fafafa;
+  padding: 70px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header input {
+  width: 500px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: 1px solid #696969;
+}
+
+header input:focus {
+  outline: none;
+}
+
+#today_section {
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#today_temp h1 {
+  font-size: 150px;
+  text-align: center;
+}
+
+#today_temp p {
+  font-size: 50px;
+  text-align: center;
+}
+
+#today_air {
+  position: absolute;
+  right: 380px;
+  top: 100px;
+}
+
+#today_air p {
+  font-size: 20px;
+}
+
+#five_days {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#five_days h3,
+#five_days p {
+  margin-bottom: 10px;
+}
